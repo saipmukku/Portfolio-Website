@@ -15,7 +15,7 @@ function ContactPage() {
 
 function DesktopContent() {
     return (
-        <Flex direction="column" height="100%" justify="center" align="center" pt={12} overflowX="hidden">
+        <Flex direction="column" align="center" pt={12}>
             <Image src="/documents/leo.png" borderRadius="full" height="420px" width="420px" />
             <Flex direction="row" width="50vw" justify="space-evenly" align="center" p={8} gap="4">
                 <Flex direction="column" gap="10px">
