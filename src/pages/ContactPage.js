@@ -1,4 +1,4 @@
-import { Button, ClipboardRoot, Image, Flex, Link } from "@chakra-ui/react";
+import { Button, ClipboardRoot, Image, Flex, Link, Text, Tooltip } from "@chakra-ui/react";
 import { MdEmail } from "react-icons/md";
 import { ClipboardButton } from '../components/ui/clipboard';
 import { RiMailLine } from "react-icons/ri"
@@ -39,6 +39,10 @@ function DesktopContent() {
                         <Image src="documents/githublogowhite.png" height="64px" width="64px" />
                     </Link>
                 </Flex>
+                <Flex direction="column" align="center">
+                    <Image src="documents/instagramlogo.png" height="64px" width="64px" />
+                    <Text p={2}>@neeth1234</Text>
+                </Flex>
             </Flex>
         </Flex>
     );
@@ -69,6 +73,10 @@ function MobileContent() {
                     <Link href="https://www.github.com/saipmukku" target="_blank" rel="noopener noreferrer" border="24px solid rounded">
                         <Image src="documents/githublogowhite.png" height="64px" width="64px" />
                     </Link>
+                </Flex>
+                <Flex direction="column" align="center">
+                    <Image src="documents/instagramlogo.png" height="64px" width="64px" />
+                    <Text p={2}>@neeth1234</Text>
                 </Flex>
             </Flex>
         </Flex>

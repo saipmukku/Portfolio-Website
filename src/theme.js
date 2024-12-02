@@ -11,7 +11,7 @@ const config = defineConfig({
       },
       fonts: {
         body: { value: "manrope, sans-serif" },
-        heading: { value: "playfair-display, serif" },
+        heading: { value: "manrope, sans-serif" },
       },
       shadows: {
         subtle: { value: "0 1px 2px 0 rgba(0, 0, 0, 0.05)" },
