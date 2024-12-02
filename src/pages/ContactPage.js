@@ -36,7 +36,7 @@ function DesktopContent() {
                 </Flex>
                 <Flex>
                     <Link href="https://www.github.com/saipmukku" target="_blank" rel="noopener noreferrer" border="24px solid rounded">
-                        <Image src="documents/githublogo.png" height="64px" width="64px" />
+                        <Image src="documents/githublogowhite.png" height="64px" width="64px" />
                     </Link>
                 </Flex>
             </Flex>
@@ -67,7 +67,7 @@ function MobileContent() {
                 </Flex>
                 <Flex>
                     <Link href="https://www.github.com/saipmukku" target="_blank" rel="noopener noreferrer" border="24px solid rounded">
-                        <Image src="documents/githublogo.png" height="64px" width="64px" />
+                        <Image src="documents/githublogowhite.png" height="64px" width="64px" />
                     </Link>
                 </Flex>
             </Flex>
