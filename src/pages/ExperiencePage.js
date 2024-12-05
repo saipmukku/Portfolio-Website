@@ -109,7 +109,7 @@ function generateFullCollapsible(collapse, company, content, imgPath, gap, size)
     ));
     const tempCols = `repeat(${imgPath.length > 1 ? imgPath.length / 2 : imgPath.length}, 1fr)`;
     return (
-        <Collapsible.Root width="75vw" open={collapse}>
+        <Collapsible.Root width="75vw" open={collapse} defaultOpen>
             <Collapsible.Trigger>{company}</Collapsible.Trigger>
             <Collapsible.Content textAlign="center" fontSize="xl" pt={8}>
                 {content}
