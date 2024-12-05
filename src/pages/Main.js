@@ -9,7 +9,7 @@ function Main() {
 
     return (
         <Box data-state="open" _open={animation}>
-            <Tabs.Root defaultValue="home" width="100vw" variant="subtle" fontFamily="body" color="secondary" fitted lazyMount unmountOnExit>
+            <Tabs.Root defaultValue="home" width="100%" variant="subtle" fontFamily="body" color="secondary" fitted lazyMount unmountOnExit>
                 <Tabs.List>
                     <Tabs.Trigger fontSize="xl" height="5vh" value="home">Home</Tabs.Trigger>
                     <Tabs.Trigger fontSize="xl" height="5vh" value="resume">Resume</Tabs.Trigger>

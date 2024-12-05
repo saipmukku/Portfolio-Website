@@ -14,7 +14,7 @@ function HomePage() {
 function DesktopContent() {
     console.log(window.innerWidth);
     return (
-        <Flex direction="column" height="100%" width="100%">
+        <Flex direction="column" height="100%" width="100%" overflowX="hidden">
             <Flex direction="row" height="93.5vh" minHeight="800px" minWidth="1000px">
                 <Flex flex={1} p={12}>
                     <Image src="/documents/portrait.jpeg" borderRadius="full" />

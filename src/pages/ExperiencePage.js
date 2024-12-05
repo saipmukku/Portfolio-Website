@@ -29,7 +29,7 @@ function DesktopContent() {
     const dennysContent = "The summer before college, I was cleaning dishes and bussing tables at Denny's.";
 
     return (
-        <Flex direction="column" justify="center" align="center">
+        <Flex direction="column" justify="center" align="center" width="100%">
             <Flex p={2} align="center">
                 <Text p={8}>Collapse All</Text>
                 <IconButton onClick={() => setCollapseAll(!collapseAll)}>
