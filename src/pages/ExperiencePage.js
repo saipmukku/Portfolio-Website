@@ -109,7 +109,7 @@ function generateFullCollapsible(collapse, company, content, imgPath, gap, size)
     ));
     const tempCols = `repeat(${imgPath.length > 1 ? imgPath.length / 2 : imgPath.length}, 1fr)`;
     return (
-        <Collapsible.Root width="75vw" open={collapse}>
+        <Collapsible.Root width="80vw" open={collapse}>
             <Collapsible.Trigger>{company}</Collapsible.Trigger>
             <Collapsible.Content textAlign="center" fontSize="2xl" pt={8}>
                 {content}
@@ -125,10 +125,10 @@ function generateFullCollapsible(collapse, company, content, imgPath, gap, size)
 
 function generateJobCards(imgPath, imgHeight, company, role, employmentDates, skills) {
     const allSkills = skills.map((skill) => (
-        <StatValueText key={skill} fontSize="xl">{skill}</StatValueText>
+        <StatValueText key={skill} fontSize="2xl">{skill}</StatValueText>
     ));
     return (
-        <Card.Root width="75vw" boxShadow="subtle">
+        <Card.Root width="80vw" boxShadow="subtle">
             <Card.Body gap="2">
                 <Flex direction="row" p={6}>
                     <Flex direction="column" flex={1} justify="center" align="center">
@@ -139,11 +139,11 @@ function generateJobCards(imgPath, imgHeight, company, role, employmentDates, sk
                     </Flex>
                     <Flex direction="column" textAlign="center" justify="space-evenly" align="center" flex={1.75}>
                         <Text textAlign="center" fontSize="4xl">{role}</Text>
-                        <Text fontSize="2xl" pb={8}>{employmentDates}</Text>
+                        <Text fontSize="3xl" pb={8}>{employmentDates}</Text>
                         <Separator pt={8} />
                         <StatRoot>
-                            <StatLabel fontSize="2xl" p={2}>Skills</StatLabel>
-                            <HStack gap="10px">
+                            <StatLabel fontSize="3xl" p={4}>Skills</StatLabel>
+                            <HStack gap="20px">
                                 {allSkills}
                             </HStack>
                         </StatRoot>

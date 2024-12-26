@@ -16,14 +16,14 @@ function ContactPage() {
 function DesktopContent() {
     return (
         <Flex direction="column" align="center" pt={12} width="100vw">
-            <Image src="/documents/leo.png" borderRadius="full" height="420px" width="420px" />
-            <Flex direction="row" width="50vw" justify="space-evenly" align="center" p={8} gap="4">
+            <Image src="/documents/leo.png" borderRadius="full" height="480px" width="480px" />
+            <Flex direction="row" width="60vw" justify="space-evenly" align="center" p={8} gap="4">
                 <Flex direction="column" gap="10px">
                     <ClipboardRoot value="saipmukku@gmail.com" justify="center" align="center">
-                        <MdEmail size="64px"/>
-                        <ClipboardButton />
+                        <MdEmail size="100px"/>
+                        <ClipboardButton size="lg" />
                     </ClipboardRoot>
-                    <Button size="sm" p={2} variant="surface">
+                    <Button size="lg" p={2} variant="surface">
                         <Link href="mailto:saipmukku@gmail.com">
                             <RiMailLine /> Open Email
                         </Link>
@@ -31,17 +31,17 @@ function DesktopContent() {
                 </Flex>
                 <Flex>
                     <Link href="https://www.linkedin.com/in/saipmukku" target="_blank" rel="noopener noreferrer">
-                        <Image src="documents/linkedinlogo.png" height="64px" width="64px" />
+                        <Image src="documents/linkedinlogo.png" height="100px" width="100px" />
                     </Link>
                 </Flex>
                 <Flex>
                     <Link href="https://www.github.com/saipmukku" target="_blank" rel="noopener noreferrer" border="24px solid rounded">
-                        <Image src="documents/githublogowhite.png" height="64px" width="64px" />
+                        <Image src="documents/githublogowhite.png" height="100px" width="100px" />
                     </Link>
                 </Flex>
                 <Flex direction="column" align="center">
-                    <Image src="documents/instagramlogo.png" height="64px" width="64px" />
-                    <Text p={2}>@neeth1234</Text>
+                    <Image src="documents/instagramlogo.png" height="100px" width="100px" />
+                    <Text fontSize="24px" p={2}>@neeth1234</Text>
                 </Flex>
             </Flex>
         </Flex>

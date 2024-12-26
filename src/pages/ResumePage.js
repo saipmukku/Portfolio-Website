@@ -14,7 +14,7 @@ function ResumePage() {
 function DesktopContent() {
     return (
         <Flex direction="row" justify="space-evenly" align="center" width="100%">
-            <Image src="/documents/resume.jpeg" fit="cover"
+            <Image src="/documents/resume.jpeg" height="92vh"
                 onClick={() => window.open('/documents/Resume.pdf', 'ResumeWindow')} />
             <Flex direction="column" align="center">
                 <Box animation="bounce" p={10}>
